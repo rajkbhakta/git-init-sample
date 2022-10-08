@@ -1,0 +1,48 @@
+.navigation-bar {
+  background-color: darkgrey;
+  height: 40px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navigation-items {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.list-item {
+  padding-left: 20px;
+  font-size: 24px;
+  padding-top: 5px;
+  text-align: center;
+  color: white;
+}
+
+.list-item > a {
+  text-decoration: none;
+}
+
+.picture {
+  height: 300px;
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+  background-color: lightgreen;
+}
+
+.image-container {
+  position: relative;
+  left: 500px;
+  background-color: lightblue;
+  width: 500px;
+}
+
+img {
+  margin-left: 100px;
+}
